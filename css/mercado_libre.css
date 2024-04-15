@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(#fff, #ccc);
+}
+
+.h4 {
+    font-weight: 1000;
+}
+
+.h5 {
+    font-size: 15px;
+}
+
+.h6 {
+    text-decoration: line-through;
+    font-size: small;
+}
+
+.verde {
+    font-size: small;
+    color: rgb(3, 165, 17);
+}
+
+b {
+    font-size: larger;
+}
+
+img {
+    width: 200px;
+}
+
+.flex-main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-div {
+    background-color: #ddd;
+    padding: 5px;
+    color: black;
+    width: 200px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    box-sizing: content-box;
+    line-height: 1.5;
+}

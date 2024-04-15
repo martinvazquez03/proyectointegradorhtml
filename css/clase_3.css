@@ -1,0 +1,24 @@
+.ig {
+    background: lightblue;
+    font-size: 30px;
+    border: 2px solid pink;
+    width: 30px;
+    height: 30px;
+}
+
+.ig:link {
+    color: black;
+}
+
+.ig:visited {
+    color: red;
+}
+
+.ig:hover {
+    font-size: 60px;
+    transition: 1s;
+}
+
+.ig:active {
+    background: white;
+}
